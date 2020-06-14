@@ -1,3 +1,9 @@
+/*
+As in SFG_DII we have learned the basics of INjection, spring component etc. Now we will modify it and make it advance.
+So creating a new Repositry for same which will have base code from sfg-dii.
+From video 75 i will change the code.
+ */
+
 
 /*
 Till now we had Seen manual dependency injection then automated injection using service and autowired

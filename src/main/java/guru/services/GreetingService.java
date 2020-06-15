@@ -1,5 +1,8 @@
-package guru.springframework.sfgdi.services;
+package guru.services;
 
+/**
+ * Created by jt on 5/24/17.
+ */
 public interface GreetingService {
 
     String sayGreeting();

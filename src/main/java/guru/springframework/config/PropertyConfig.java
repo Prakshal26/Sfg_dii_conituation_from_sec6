@@ -62,9 +62,10 @@ One more Property file i have addded in resouce folder. Let's get value from it.
 /*
 It will scan all the Property files that we have mentioned
  */
-    @Bean
-    public static PropertySourcesPlaceholderConfigurer properties() {
-        PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer = new PropertySourcesPlaceholderConfigurer();
-        return propertySourcesPlaceholderConfigurer;
-    }
+    //I have put my properties in in build application.properties so i dont need this explicitly.
+   // @Bean
+    //public static PropertySourcesPlaceholderConfigurer properties() {
+     //   PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer = new PropertySourcesPlaceholderConfigurer();
+      //  return propertySourcesPlaceholderConfigurer;
+    //}
 }

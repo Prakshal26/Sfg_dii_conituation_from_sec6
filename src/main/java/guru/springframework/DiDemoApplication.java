@@ -3,7 +3,10 @@ This is a new mechanism to store the data by using the property source. Check th
 resources/datasource.properties. There we are giving our data i.e user name, password etc etc.
 We have created Propertyconfig class under Config folder where we are controlling the data.
  */
-
+/*
+Earlier we had created to datasource and jms properties file but now we have remved them and put it's
+content in application.properties which is inbuild property file supported by spring.
+ */
 package guru.springframework;
 
 import guru.springframework.controllers.ConstructorInjectedController;

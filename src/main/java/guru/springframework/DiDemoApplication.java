@@ -7,6 +7,11 @@ We have created Propertyconfig class under Config folder where we are controllin
 Earlier we had created to datasource and jms properties file but now we have remved them and put it's
 content in application.properties which is inbuild property file supported by spring.
  */
+/*
+In video 91 we have started with Yaml so instead of putting data in jms.properties etc etc
+we have created a common yaml file and there we can put our data easily.
+To learn yaml syntax see example.yml file.
+ */
 package guru.springframework;
 
 import guru.springframework.controllers.ConstructorInjectedController;

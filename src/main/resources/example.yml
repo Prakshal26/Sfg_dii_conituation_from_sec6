@@ -1,0 +1,39 @@
+# this is a comment. Here we will teach basic syntax of YAML( Yet Another Markup Language"
+
+#Normal property holding value John
+name: John
+#List of Properties
+names:
+  - John
+  - Paul
+  - Ringo
+#Will store a $ sign
+pound_sign: "$"
+
+#Book property which have some sub properties
+book:
+  author: Joe Buck
+  publisher: random house
+
+#All the three ways to store boolean values true
+truth: yes
+another_truth: True
+more_true: true
+
+#TO store boolean false
+false: no #No False, False
+
+#It will store a string
+string_val: "This is a quote"
+
+#All of these lines will be printed in new line
+include_new_lines: |
+  ashd jdhj dfj
+  fdjisj mnhfdjkhs
+  ifjdsi iojf
+
+#It will ignore the new line and will print as a whole: this is a long string
+ignore_new_lines: >
+  this is
+  a
+  long string

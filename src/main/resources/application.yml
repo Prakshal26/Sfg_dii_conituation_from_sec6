@@ -1,0 +1,7 @@
+#This is a yaml file which is doing the same work which initially jms.properties was doing.
+
+guru:
+  jms:
+    username: Jms Username
+    password: somepass
+    url: SomeUrl

@@ -5,3 +5,17 @@ guru:
     username: Jms Username
     password: somepass
     url: SomeUrl
+
+#We have seen how we are creating application-de.properties. Similarly we can do in yaml
+
+---
+#That three line was a file seprator in yaml
+spring :
+  profiles: de
+guru:
+  jms :
+    username : JMS username in German
+
+#Now the output wil be johninGermna and John Username in German
+    # as soon as yaml file will be called it will access the above one i.e jms username but it will
+    #see file seprator and there profile is given, since profile has high precedence the above will be overwritten

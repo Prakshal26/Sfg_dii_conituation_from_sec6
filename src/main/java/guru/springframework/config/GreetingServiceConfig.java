@@ -32,6 +32,6 @@ public class GreetingServiceConfig {
     @Primary
     @Profile({"de"})
     GreetingService primaryGermanGreetingService (GreetingServiceFactory greetingServiceFactory) {
-        return greetingServiceFactory.createGreetingService("en");
+        return greetingServiceFactory.createGreetingService("de");
     }
 }
